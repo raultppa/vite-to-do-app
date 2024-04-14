@@ -6,7 +6,7 @@ function TaskList() {
 	if (tasks.length === 0) {
 		return (
 			<h1 className="text-white font-bold text-3xl m-auto text-center">
-				No hay tareas aún.
+				There aren&apos;t tasks yet.
 			</h1>
 		);
 	}

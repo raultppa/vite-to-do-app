@@ -30,18 +30,18 @@ function TaskForm() {
 				className="p-3 w-full border bg-slate-700 text-white border-slate-400 rounded-md mb-2 placeholder:text-slate-500 focus:outline-cyan-500 focus:outline"
 				type="text"
 				id="title"
-				placeholder="escribe tu tarea"
+				placeholder="Write your task"
 				onChange={getData}
 			/>
 			<input
 				className="p-3 w-full border bg-slate-700 text-white border-slate-400 rounded-md mb-2 placeholder:text-slate-500 focus:outline-cyan-500 focus:outline"
 				type="text"
 				id="description"
-				placeholder="escribe tu descripcion"
+				placeholder="Write your description"
 				onChange={getData}
 			/>
 			<button className="rounded-md p-2 text-white border border-emerald-300 hover:bg-emerald-500 bg-emerald-600">
-				Enviar Tarea
+				Send Task
 			</button>
 		</form>
 	);

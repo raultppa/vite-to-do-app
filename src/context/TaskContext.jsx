@@ -10,7 +10,7 @@ export function TaskContextProvider(props) {
 		setTasks([
 			...tasks,
 			{
-				id: tasks.length,
+				id: 'id' + Math.random().toString(16).slice(2),
 				title,
 				description,
 			},

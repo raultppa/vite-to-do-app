@@ -11,7 +11,7 @@ function TaskCard({ task }) {
 				className="bg-red-700 rounded-md p-2 mt-4 hover:bg-red-600 border border-red-400"
 				onClick={() => deleteTask(task.id)}
 			>
-				Eliminar Tarea
+				Delete Task
 			</button>
 		</div>
 	);
